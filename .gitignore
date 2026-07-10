@@ -1,0 +1,34 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data and Models (Avoid pushing large files)
+*.pkl
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.onnx
+*.joblib
+
+# Logs
+*.log
+logs/
+wandb/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
